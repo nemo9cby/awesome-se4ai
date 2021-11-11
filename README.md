@@ -81,83 +81,77 @@ prepare data in Python](https://www.cs.sfu.ca/~jnwang/ppt/DataPrep-TR-Talk.pdf)
 ***FSE***
 
 42. LAMP: data provenance for graph based machine learning algorithms through derivative computation. FSE 2017:786-797.
-43. 	Shiqing Ma, Yingqi Liu, Wen-Chuan Lee, Xiangyu Zhang, Ananth Grama:
-MODE: automated neural network model debugging via state differential analysis and input selection. FSE 2018: 175-186
-44. Xiaoning Du, Xiaofei Xie, Yi Li, Lei Ma, Yang Liu, Jianjun Zhao:
-DeepStellar: model-based quantitative analysis of stateful deep learning systems. FSE 2019: 477-487
-45. 	Guy Barash, Eitan Farchi, Ilan Jayaraman, Orna Raz, Rachel Tzoref-Brill, Marcel Zalmanovici:
-Bridging the gap between ML solutions and their business requirements using feature interactions. FSE 2019:1048-1058
-46. Sumon Biswas, Hridesh Rajan:
-Do the machine learning models on a crowd sourced platform exhibit bias? an empirical study on model fairness. FSE 2020:642-653
-47. 	Joymallya Chakraborty, Suvodeep Majumder, Zhe Yu, Tim Menzies:
-Fairway: a way to build fair ML software. FSE 2020:654-665
-48. 	Zhenpeng Chen, Yanbin Cao, Yuanqiang Liu, Haoyu Wang, Tao Xie, Xuanzhe Liu:
-A comprehensive study on challenges in deploying deep learning based software. 750-762
-49. 	José Pablo Cambronero, Jürgen Cito, Martin C. Rinard:
-AMS: generating AutoML search spaces from weak specifications. 763-774
-50. Shenao Yan, Guanhong Tao, Xuwei Liu, Juan Zhai, Shiqing Ma, Lei Xu, Xiangyu Zhang:
-Correlations between deep neural network model coverage criteria and model quality. 775-787
-51. Zan Wang, Ming Yan, Junjie Chen, Shuang Liu, Dongdi Zhang:
-Deep learning library testing via effective model generation. 788-799
-52. Fuyuan Zhang, Sankalan Pal Chowdhury, Maria Christakis:
-DeepSearch: a simple and effective blackbox attack for deep neural networks. 800-812
-53. 	Yuhao Zhang, Luyao Ren, Liqian Chen, Yingfei Xiong, Shing-Chi Cheung, Tao Xie:
-Detecting numerical bugs in neural network architectures. 826-837
-54. 	Ziqi Zhang, Yuanchun Li, Yao Guo, Xiangqun Chen, Yunxin Liu:
-Dynamic slicing for deep neural networks. 838-850
-55. 	Fabrice Harel-Canada, Lingxiao Wang, Muhammad Ali Gulzar, Quanquan Gu, Miryung Kim:
-Is neuron coverage a meaningful measure for testing deep neural networks? 851-862
-56. 	Shashij Gupta, Pinjia He, Clara Meister, Zhendong Su:
-Machine translation testing via pathological invariance. 863-875
-57. Vincenzo Riccio, Paolo Tonella:
-Model-based exploration of the frontier of behaviours for deep learning system testing. 876-888
-58.	Rangeet Pan, Hridesh Rajan:
-On decomposing a deep neural network into modules. 889-900
-59. Zenan Li, Xiaoxing Ma, Chang Xu, Jingwei Xu, Chun Cao, Jian Lu:
-Operational calibration: debugging confidence errors for DNNs in the field. 901-913
-60. Zi Peng, Jinqiu Yang, Tse-Hsun (Peter) Chen, Lei Ma:
-A first look at the integration of machine learning models in complex autonomous driving systems: a case study on Apollo. 1240-1250
-61. 	Yu Liu, Cheng Chen, Ru Zhang, Tingting Qin, Xiang Ji, Haoxiang Lin, Mao Yang:
-Enhancing the interoperability between deep learning frameworks by model conversion. 1320-1330
-62. 	Yanjie Gao, Yu Liu, Hongyu Zhang, Zhengxian Li, Yonghao Zhu, Haoxiang Lin, Mao Yang:
-Estimating GPU memory consumption of deep learning models. 1342-1352
-63. 	Jinhan Kim, Jeongil Ju, Robert Feldt, Shin Yoo:
-Reducing DNN labelling cost using surprise adequacy: an industrial case study for autonomous driving. 1466-1476
-64. 	Joymallya Chakraborty, Suvodeep Majumder, Tim Menzies:
-Bias in machine learning software: why? how? what to do? FSE2021:429-440
-65. 	Songqiang Chen, Shuo Jin, Xiaoyuan Xie:
-Validation on machine reading comprehension software without annotated labels: a property-based method. 590-602
-66. 	Saikat Dutta, August Shi, Sasa Misailovic:
-FLEX: fixing flaky tests in machine learning projects by updating assertion bounds. 603-614
-67. 	Ming Yan, Junjie Chen, Xiangyu Zhang, Lin Tan, Gan Wang, Zan Wang:
-Exposing numerical bugs in deep learning via gradient back-propagation. 627-638
-68. 	Sahil Suneja, Yunhui Zheng, Yufan Zhuang, Jim Alain Laredo, Alessandro Morari:
-Probing model signal-awareness via prediction-preserving input minimization. 945-955
-69. 	Shu Lin, Na Meng, Wenxin Li:
-Generating efficient solvers from constraint models. 956-967
-70. Qingchao Shen, Haoyang Ma, Junjie Chen, Yongqiang Tian, Shing-Chi Cheung, Xiang Chen:
-A comprehensive study of deep learning compiler bugs. 968-980
-71. 	Sumon Biswas, Hridesh Rajan:
-Fair preprocessing: towards understanding compositional fairness of data transformers in machine learning pipeline. 981-993
-72. Max Hort, Jie M. Zhang, Federica Sarro, Mark Harman:
-Fairea: a model behaviour mutation approach to benchmarking bias mitigation methods. 994-1006
+
+43. 	Shiqing Ma, Yingqi Liu, Wen-Chuan Lee, Xiangyu Zhang, Ananth Grama: MODE: automated neural network model debugging via state differential analysis and input selection. FSE 2018: 175-186
+
+44. Xiaoning Du, Xiaofei Xie, Yi Li, Lei Ma, Yang Liu, Jianjun Zhao: DeepStellar: model-based quantitative analysis of stateful deep learning systems. FSE 2019: 477-487
+
+45. 	Guy Barash, Eitan Farchi, Ilan Jayaraman, Orna Raz, Rachel Tzoref-Brill, Marcel Zalmanovici: Bridging the gap between ML solutions and their business requirements using feature interactions. FSE 2019:1048-1058
+
+46. Sumon Biswas, Hridesh Rajan: Do the machine learning models on a crowd sourced platform exhibit bias? an empirical study on model fairness. FSE 2020:642-653
+
+47. 	Joymallya Chakraborty, Suvodeep Majumder, Zhe Yu, Tim Menzies: Fairway: a way to build fair ML software. FSE 2020:654-665
+
+48. 	Zhenpeng Chen, Yanbin Cao, Yuanqiang Liu, Haoyu Wang, Tao Xie, Xuanzhe Liu: A comprehensive study on challenges in deploying deep learning based software. 750-762
+
+49. 	José Pablo Cambronero, Jürgen Cito, Martin C. Rinard: AMS: generating AutoML search spaces from weak specifications. 763-774
+
+50. Shenao Yan, Guanhong Tao, Xuwei Liu, Juan Zhai, Shiqing Ma, Lei Xu, Xiangyu Zhang: Correlations between deep neural network model coverage criteria and model quality. 775-787
+
+51. Zan Wang, Ming Yan, Junjie Chen, Shuang Liu, Dongdi Zhang: Deep learning library testing via effective model generation. 788-799
+
+52. Fuyuan Zhang, Sankalan Pal Chowdhury, Maria Christakis: DeepSearch: a simple and effective blackbox attack for deep neural networks. 800-812
+
+53. 	Yuhao Zhang, Luyao Ren, Liqian Chen, Yingfei Xiong, Shing-Chi Cheung, Tao Xie: Detecting numerical bugs in neural network architectures. 826-837
+
+54. 	Ziqi Zhang, Yuanchun Li, Yao Guo, Xiangqun Chen, Yunxin Liu: Dynamic slicing for deep neural networks. 838-850
+
+55. 	Fabrice Harel-Canada, Lingxiao Wang, Muhammad Ali Gulzar, Quanquan Gu, Miryung Kim: Is neuron coverage a meaningful measure for testing deep neural networks? 851-862
+
+56. 	Shashij Gupta, Pinjia He, Clara Meister, Zhendong Su: Machine translation testing via pathological invariance. 863-875
+
+57. Vincenzo Riccio, Paolo Tonella: Model-based exploration of the frontier of behaviours for deep learning system testing. 876-888
+
+58.	Rangeet Pan, Hridesh Rajan: On decomposing a deep neural network into modules. 889-900
+
+59. Zenan Li, Xiaoxing Ma, Chang Xu, Jingwei Xu, Chun Cao, Jian Lu: Operational calibration: debugging confidence errors for DNNs in the field. 901-913
+
+60. Zi Peng, Jinqiu Yang, Tse-Hsun (Peter) Chen, Lei Ma: A first look at the integration of machine learning models in complex autonomous driving systems: a case study on Apollo. 1240-1250
+
+61. 	Yu Liu, Cheng Chen, Ru Zhang, Tingting Qin, Xiang Ji, Haoxiang Lin, Mao Yang: Enhancing the interoperability between deep learning frameworks by model conversion. 1320-1330
+
+62. 	Yanjie Gao, Yu Liu, Hongyu Zhang, Zhengxian Li, Yonghao Zhu, Haoxiang Lin, Mao Yang: Estimating GPU memory consumption of deep learning models. 1342-1352
+
+63. 	Jinhan Kim, Jeongil Ju, Robert Feldt, Shin Yoo: Reducing DNN labelling cost using surprise adequacy: an industrial case study for autonomous driving. 1466-1476
+
+64. 	Joymallya Chakraborty, Suvodeep Majumder, Tim Menzies: Bias in machine learning software: why? how? what to do? FSE2021:429-440
+
+65. 	Songqiang Chen, Shuo Jin, Xiaoyuan Xie: Validation on machine reading comprehension software without annotated labels: a property-based method. 590-602
+
+66. 	Saikat Dutta, August Shi, Sasa Misailovic: FLEX: fixing flaky tests in machine learning projects by updating assertion bounds. 603-614
+
+67. 	Ming Yan, Junjie Chen, Xiangyu Zhang, Lin Tan, Gan Wang, Zan Wang: Exposing numerical bugs in deep learning via gradient back-propagation. 627-638
+
+68. 	Sahil Suneja, Yunhui Zheng, Yufan Zhuang, Jim Alain Laredo, Alessandro Morari: Probing model signal-awareness via prediction-preserving input minimization. 945-955
+
+69. 	Shu Lin, Na Meng, Wenxin Li: Generating efficient solvers from constraint models. 956-967
+
+70. Qingchao Shen, Haoyang Ma, Junjie Chen, Yongqiang Tian, Shing-Chi Cheung, Xiang Chen: A comprehensive study of deep learning compiler bugs. 968-980
+
+71. 	Sumon Biswas, Hridesh Rajan: Fair preprocessing: towards understanding compositional fairness of data transformers in machine learning pipeline. 981-993
+
+72. Max Hort, Jie M. Zhang, Federica Sarro, Mark Harman: Fairea: a model behaviour mutation approach to benchmarking bias mitigation methods. 994-1006
 
 ***ASE***
 
-73. Sakshi Udeshi, Pryanshu Arora, Sudipta Chattopadhyay:
-Automated directed fairness testing. ASE 2018:98-108
-74. Youcheng Sun, Min Wu, Wenjie Ruan, Xiaowei Huang, Marta Kwiatkowska, Daniel Kroening:
-Concolic testing for deep neural networks. 109-119
-75. 	Lei Ma, Felix Juefei-Xu, Fuyuan Zhang, Jiyuan Sun, Minhui Xue, Bo Li, Chunyang Chen, Ting Su, Li Li, Yang Liu, Jianjun Zhao, Yadong Wang:
-DeepGauge: multi-granularity testing criteria for deep learning systems. 120-131
+73. Sakshi Udeshi, Pryanshu Arora, Sudipta Chattopadhyay: Automated directed fairness testing. ASE 2018:98-108
+74. Youcheng Sun, Min Wu, Wenjie Ruan, Xiaowei Huang, Marta Kwiatkowska, Daniel Kroening:Concolic testing for deep neural networks. 109-119
+75. 	Lei Ma, Felix Juefei-Xu, Fuyuan Zhang, Jiyuan Sun, Minhui Xue, Bo Li, Chunyang Chen, Ting Su, Li Li, Yang Liu, Jianjun Zhao, Yadong Wang: DeepGauge: multi-granularity testing criteria for deep learning systems. 120-131
 76. 	Mengshi Zhang, Yuqun Zhang, Lingming Zhang, Cong Liu, Sarfraz Khurshid:
 DeepRoad: GAN-based metamorphic testing and input validation framework for autonomous driving systems. 132-142
-77. 	Nghi D. Q. Bui, Yijun Yu, Lingxiao Jiang:
-AutoFocus: Interpreting Attention-Based Neural Networks by Code Perturbation. ASE 2019:38-41
-78. 	Yan Zheng, Changjie Fan, Xiaofei Xie, Ting Su, Lei Ma, Jianye Hao, Zhaopeng Meng, Yang Liu, Ruimin Shen, Yingfeng Chen:
-Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning. 772-784
-79. 	Mahdi Nejadgholi, Jinqiu Yang:
-A Study of Oracle Approximations in Testing Deep Learning Libraries. 785-796
+77. 	Nghi D. Q. Bui, Yijun Yu, Lingxiao Jiang: AutoFocus: Interpreting Attention-Based Neural Networks by Code Perturbation. ASE 2019:38-41
+78. 	Yan Zheng, Changjie Fan, Xiaofei Xie, Ting Su, Lei Ma, Jianye Hao, Zhaopeng Meng, Yang Liu, Ruimin Shen, Yingfeng Chen: Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning. 772-784
+79. 	Mahdi Nejadgholi, Jinqiu Yang: A Study of Oracle Approximations in Testing Deep Learning Libraries. 785-796
 80. [Property Inference for Deep Neural Networks.]() Divya Gopinath, Hayes Converse, Corina S. Pasareanu, Ankur Taly. ASE 2020: 797-809
 81. [An Empirical Study Towards Characterizing Deep Learning Development and Deployment Across Different Frameworks and Platforms.]() Qianyu Guo, Sen Chen, Xiaofei Xie, Lei Ma, Qiang Hu, Hongtao Liu, Yang Liu, Jianjun Zhao, Xiaohong Li. ASE 2020: 810-822
 82. [Audee: Automated Testing for Deep Learning Frameworks.]() Qianyu Guo, Xiaofei Xie, Yi Li, Xiaoyu Zhang, Yang Liu, Xiaohong Li, Chao Shen. ASE 2020:486-498
