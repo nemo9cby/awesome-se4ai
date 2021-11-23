@@ -31,6 +31,7 @@ prepare data in Python](https://www.cs.sfu.ca/~jnwang/ppt/DataPrep-TR-Talk.pdf)
 25. [MediaPipe](https://github.com/google/mediapipe)
 26. [Netflix's Metaflow: Reproducible machine learning pipelines](https://news.ycombinator.com/item?id=25497008)
 27. [Traceability for Trustworthy AI: A Review of Models and Tools](https://www.mdpi.com/2504-2289/5/2/20)
+28. [Finding duplicate images made easy!](https://github.com/idealo/imagededup)
 
 ### Papers:
 1. [DeepXplore: Automated Whitebox Testing of Deep Learning Systems.](https://arxiv.org/pdf/1705.06640.pdf) 	Kexin Pei, Yinzhi Cao, Junfeng Yang, Suman Jana. SOSP 2017: 1-18.
